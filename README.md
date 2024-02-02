@@ -6,6 +6,8 @@ You have to return a new timestamp with date and corresponding time in cityB, fo
 "1983-7-22 23:01"
 See the table below for a list of given cities and their GMT (Greenwich Mean Time) hours offsets.
 
+
+
 GMT	City
 - 08:00	Los Angeles
 - 05:00	New York
@@ -18,6 +20,8 @@ GMT	City
 + 05:30	New Delhi
 + 08:00	Beijing
 + 10:00	Canberra
+
+
 Examples
 timeDifference("Los Angeles", "April 1, 2011 23:23", "Canberra") ➞ "2011-4-2 17:23"
 // Can be a new day.
